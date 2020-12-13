@@ -22,8 +22,6 @@ int menu(void);
 int findEmployee(Connection* conn, int employeeNumber, struct Employee* emp);
 void displayEmployee(Connection* conn, struct Employee emp);
 void displayAllEmployees(Connection* conn);
-
-// PART 2 FUNCTION DECLARATIONS
 void getEmployee(struct Employee* emp);
 void insertEmployee(Connection* conn, struct Employee emp);
 void updateEmployee(Connection* conn, int employeeNumber);
@@ -233,7 +231,6 @@ void displayAllEmployees(Connection* conn)
 	}
 }
 
-/* -------------- PART 2 FUNCTION DEFINITIONS --------------- */
 // gets employee info from user and stores the values in emp
 void getEmployee(struct Employee* emp)
 {
